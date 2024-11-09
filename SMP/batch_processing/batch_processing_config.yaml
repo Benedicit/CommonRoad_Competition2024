@@ -49,7 +49,8 @@ default: &default # create an anchor point for default parameters
   # maximum depth of the search tree
   max_tree_depth: 100
   # timeout time setting for motion planner [s].
-  timeout: 30
+  timeout: 20
+  # It doesn't need more
 
 default_automaton_files:
   FORD_ESCORT: V_0.0_20.0_Vstep_1.0_SA_-0.91_0.91_SAstep_0.23_T_0.5_Model_FORD_ESCORT
@@ -75,13 +76,80 @@ scenario_loader:
 
   # specific scenarios to be tested. this only works for inputmode set to SPECIFIC
   # if the given list is empty, all scenarios will be loaded
+
   scenarios_to_run:
-    - DEU_Flensburg-11_1_T-1
+  # Scenerios where the solution was never found
+    - ARG_Carcarana-8_4_T-1
+    - BEL_Aarschot-6_1_T-1
+    - BEL_Putte-14_3_T-1
+    - BEL_Putte-17_1_T-1
+    - DEU_Flensburg-64_1_T-1
+    - DEU_Guetersloh-10_4_T-1
+    - DEU_Lohmar-19_1_T-1
+    - DEU_Lohmar-28_1_T-1
+    - DEU_Speyer-2_1_T-1
+    - ESP_Ceuta-11_1_T-1
+    - ESP_Ceuta-5_1_T-1
+    - ESP_Inca-3_2_T-1
+    - ESP_SantBoideLlobregat-22_3_T-1
+    - ESP_SantBoideLlobregat-4_1_T-1
+    - FRA_Anglet-2_1_T-1
+    - GRC_Perama-1_1_T-1
+    - ITA_Foggia-12_1_T-1
+    - ITA_Foggia-19_1_T-1
+    - USA_US101-10_4_T-1
+    #
+    - DEU_Flensburg-10_1_T-1
+    - DEU_Flensburg-12_1_T-1
+    - DEU_Flensburg-13_1_T-1
+    - DEU_Flensburg-14_1_T-1
     - DEU_Flensburg-15_1_T-1
+    - DEU_Flensburg-16_1_T-1
     - DEU_Flensburg-17_1_T-1
+    - DEU_Flensburg-18_1_T-1
     - DEU_Flensburg-19_1_T-1
     - DEU_Flensburg-20_1_T-1
-    -
+    - DEU_Flensburg-21_1_T-1
+    - DEU_Flensburg-22_1_T-1
+    - DEU_Flensburg-23_1_T-1
+    - DEU_Flensburg-24_1_T-1
+    - DEU_Flensburg-25_1_T-1
+    - DEU_Flensburg-26_1_T-1
+    - DEU_Flensburg-27_1_T-1
+    - DEU_Flensburg-28_1_T-1
+    - DEU_Flensburg-29_1_T-1
+    - DEU_Flensburg-2_1_T-1
+    - DEU_Flensburg-30_1_T-1
+    - DEU_Flensburg-31_1_T-1
+    - DEU_Flensburg-32_1_T-1
+    - DEU_Flensburg-33_1_T-1
+    - DEU_Flensburg-34_1_T-1
+    - DEU_Flensburg-35_1_T-1
+    - DEU_Flensburg-36_1_T-1
+    - DEU_Flensburg-37_1_T-1
+    - DEU_Flensburg-38_1_T-1
+    - DEU_Flensburg-39_1_T-1
+    - DEU_Flensburg-40_1_T-1
+    - DEU_Flensburg-41_1_T-1
+    - DEU_Flensburg-42_1_T-1
+    - DEU_Flensburg-43_1_T-1
+    - DEU_Flensburg-44_1_T-1
+    - DEU_Flensburg-45_1_T-1
+    - DEU_Flensburg-46_1_T-1
+    - DEU_Flensburg-47_1_T-1
+    - DEU_Flensburg-48_1_T-1
+    - DEU_Flensburg-49_1_T-1
+    - DEU_Flensburg-50_1_T-1
+    - DEU_Flensburg-51_1_T-1
+    - DEU_Flensburg-52_1_T-1
+    - DEU_Flensburg-53_1_T-1
+    - DEU_Flensburg-54_1_T-1
+    - DEU_Flensburg-55_1_T-1
+    - DEU_Flensburg-56_1_T-1
+    - DEU_Flensburg-57_1_T-1
+    - DEU_Flensburg-58_1_T-1
+    - DEU_Flensburg-62_1_T-1
+
 
 
 

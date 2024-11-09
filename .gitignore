@@ -22,3 +22,4 @@ outputs/gifs/
 outputs/solutions/
 
 *.log
+/SMP/batch_processing/Scenarios_many_time_outs
